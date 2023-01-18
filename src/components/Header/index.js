@@ -1,10 +1,22 @@
 import React from "react";
 
+import { AreaHeader } from './style'
+
 function Header(){
     return(
-        <div>
-            Topo da página
-        </div>
+        <AreaHeader>
+            <div className="container">
+                <div className="logo">
+                    LOGOMARCA
+                </div>
+                <nav>
+                    <ul>
+                        <li>Configurações</li>
+                        <li>Sair</li>
+                    </ul>
+                </nav>
+            </div>
+        </AreaHeader>
     )
 }
 

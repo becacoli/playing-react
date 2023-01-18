@@ -1,11 +1,12 @@
 import React from "react";
 
+import {AreaFooter} from './style';
+
 function Footer(){
     return(
-        <div>
-        <h1> Olá mundo </h1>
-        <p> Bequinha testando react</p>
-        </div>
+        <AreaFooter>
+        Todos os direitos reservados.
+        </AreaFooter>
     )
 }
 

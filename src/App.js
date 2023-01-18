@@ -6,10 +6,11 @@ import Footer from './components/Footer'
 
 function App() {
   return(
-    <div>
+    <>
       <Header/>
+      <div>Bequinha testando react</div>
       <Footer/>
-    </div>
+    </>
   )
 }
 
